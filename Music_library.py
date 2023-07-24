@@ -66,7 +66,7 @@ for line in all:
     album= lookup(line, 'Album')
     rating= lookup(line, 'Rating')
     length = lookup(line, 'Total Time')
-    count = lookup(line, 'count')
+    count = lookup(line, 'Play Count')
 
     if name is None or artist is None or album is None:
         continue
