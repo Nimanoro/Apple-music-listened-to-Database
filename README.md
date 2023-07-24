@@ -1,6 +1,8 @@
   # Listend to DataBase for Apple music
 
+- This was developed using sqlite3, xmlparser library and python3.
 - This app can parse your xml history of apple music and create a database based on the music you listened to.
+- You can download your listening history of apple music using this piece of code and check your most listened-to musics.
 - The created database present the data in three tables, Track, Artist and Album which result in easy access and sorting by sql commands.
 
 
